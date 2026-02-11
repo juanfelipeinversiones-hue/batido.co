@@ -7,7 +7,7 @@ const Packs: React.FC = () => {
     <section id="packs" className="py-28 sm:py-36 lg:py-40 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-24">
-          <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Promo Medellín</h2>
+          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em]">Promo Medellín</h2>
           <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter">Sickpack Batido</h3>
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Precio especial por tiempo limitado. Confirmamos disponibilidad y tiempos por WhatsApp.
@@ -20,19 +20,19 @@ const Packs: React.FC = () => {
               key={pack.id} 
               className={`relative p-8 sm:p-10 md:p-12 rounded-[3.5rem] border transition-all duration-500 flex flex-col overflow-hidden group ${
                 pack.isPopular 
-                  ? 'bg-gradient-to-br from-zinc-800 to-zinc-900 border-emerald-500/50 md:scale-105 shadow-[0_0_80px_-15px_rgba(52,211,153,0.15)]' 
-                  : 'bg-zinc-900/40 border-white/5 hover:border-white/20'
+                  ? 'bg-white/90 border-[#557C5C]/40 md:scale-105 shadow-[0_20px_60px_-25px_rgba(85,124,92,0.35)]' 
+                  : 'bg-white/80 border-black/10 hover:border-black/20'
               }`}
             >
               {pack.isPopular && (
-                <div className="absolute top-0 right-0 bg-emerald-500 text-black px-8 py-2 rounded-bl-3xl text-[10px] font-black uppercase tracking-widest">
+                <div className="absolute top-0 right-0 bg-[#557C5C] text-white px-8 py-2 rounded-bl-3xl text-[10px] font-black uppercase tracking-widest">
                   Mejor Oferta
                 </div>
               )}
 
               <div className="space-y-6 mb-12">
                 <h4 className="text-3xl font-black tracking-tight">{pack.name}</h4>
-                <p className="text-zinc-500 text-sm font-medium leading-relaxed">{pack.description}</p>
+                <p className="text-zinc-600 text-sm font-medium leading-relaxed">{pack.description}</p>
                 <div className="flex items-baseline gap-3 flex-wrap">
                   <span className="text-5xl font-black tracking-tighter">{pack.price}</span>
                   <span className="text-zinc-600 text-xs font-bold uppercase tracking-widest">COP</span>
@@ -42,19 +42,19 @@ const Packs: React.FC = () => {
                     </span>
                   )}
                 </div>
-                <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-400">
-                  <span className="px-3 py-1 rounded-full border border-white/10">{pack.sizeMl} ml por botella</span>
-                  <span className="px-3 py-1 rounded-full border border-white/10">So Green · Summer Glow · Full Recovery</span>
+                <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                  <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">{pack.sizeMl} ml por botella</span>
+                  <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">So Green · Summer Glow · Full Recovery</span>
                 </div>
               </div>
 
-              <div className="mt-auto pt-8 border-t border-white/5 space-y-6">
+              <div className="mt-auto pt-8 border-t border-black/10 space-y-6">
                 <button 
                   onClick={() => window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`, '_blank')}
                   className={`w-full py-5 rounded-2xl font-black uppercase tracking-[0.2em] text-[11px] transition-all duration-300 ${
                     pack.isPopular 
-                      ? 'bg-emerald-500 text-black hover:scale-[1.02] shadow-lg shadow-emerald-500/20' 
-                      : 'bg-white text-black hover:bg-emerald-400'
+                      ? 'bg-[#557C5C] text-white hover:scale-[1.02] shadow-lg shadow-[#557C5C]/20' 
+                      : 'bg-[#557C5C] text-white hover:bg-[#4b6f52]'
                   }`}
                 >
                   {pack.cta}
@@ -69,7 +69,7 @@ const Packs: React.FC = () => {
                     Pedir por Rappi
                   </a>
                 )}
-                <p className="text-center text-[10px] text-zinc-500 uppercase tracking-widest font-black">
+                <p className="text-center text-[10px] text-zinc-600 uppercase tracking-widest font-black">
                   {pack.availabilityNote}
                 </p>
                 <p className="text-center text-[9px] text-zinc-600 uppercase tracking-widest font-black flex items-center justify-center gap-2">

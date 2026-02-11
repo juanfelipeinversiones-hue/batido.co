@@ -3,12 +3,12 @@ import React from 'react';
 
 const ValueProp: React.FC = () => {
   return (
-    <section id="nosotros" className="py-24 sm:py-32 lg:py-40 px-6 bg-[#080808]">
+    <section id="nosotros" className="py-24 sm:py-32 lg:py-40 px-6 bg-[#EAEDE2]">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="space-y-16">
             <div className="space-y-6 text-center md:text-left">
-              <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.5em]">Hecho en Medellín</h2>
+              <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.5em]">Hecho en Medellín</h2>
               <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.95]">Puro.<br />Fresco.<br />Potente.</h3>
             </div>
 
@@ -20,11 +20,11 @@ const ValueProp: React.FC = () => {
                 { title: 'Entrega Medellín', desc: 'Confirmamos disponibilidad y tiempos por WhatsApp.', icon: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' }
               ].map((item, i) => (
                 <div key={i} className="group space-y-4">
-                  <div className="w-10 h-10 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-all duration-300">
+                  <div className="w-10 h-10 bg-white/80 border border-black/10 rounded-xl flex items-center justify-center text-[#557C5C] group-hover:bg-[#557C5C] group-hover:text-white transition-all duration-300">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={item.icon} /></svg>
                   </div>
                   <h4 className="text-xl font-black tracking-tight">{item.title}</h4>
-                  <p className="text-zinc-500 text-sm font-light leading-relaxed">{item.desc}</p>
+                  <p className="text-zinc-600 text-sm font-light leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>

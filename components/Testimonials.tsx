@@ -3,10 +3,10 @@ import { TESTIMONIALS } from '../constants';
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 sm:py-32 px-6 bg-[#080808]">
+    <section className="py-24 sm:py-32 px-6 bg-[#EAEDE2]">
       <div className="max-w-7xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Reseñas reales</h2>
+          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em]">Reseñas reales</h2>
           <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">Clientes que repiten</h3>
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Experiencias de Medellín y otros lugares. Lo que más se repite: sabor real, frescura y energía.
@@ -17,9 +17,9 @@ const Testimonials: React.FC = () => {
           {TESTIMONIALS.map((item) => (
             <div
               key={`${item.name}-${item.city}`}
-              className="rounded-[2rem] border border-white/10 bg-white/5 p-8 flex flex-col gap-6"
+              className="rounded-[2rem] border border-black/10 bg-white/80 p-8 flex flex-col gap-6"
             >
-              <div className="flex items-center gap-2 text-emerald-400">
+              <div className="flex items-center gap-2 text-[#557C5C]">
                 {Array.from({ length: item.rating }).map((_, idx) => (
                   <svg
                     key={`${item.name}-star-${idx}`}
@@ -32,15 +32,15 @@ const Testimonials: React.FC = () => {
                 ))}
               </div>
 
-              <p className="text-zinc-200 text-lg font-medium leading-relaxed">“{item.quote}”</p>
+              <p className="text-zinc-700 text-lg font-medium leading-relaxed">“{item.quote}”</p>
 
               <div className="mt-auto flex items-center justify-between text-sm">
                 <div>
                   <p className="font-bold">{item.name}</p>
-                  <p className="text-zinc-500">{item.city}</p>
+                  <p className="text-zinc-600">{item.city}</p>
                 </div>
                 {item.result && (
-                  <span className="text-[10px] uppercase tracking-[0.3em] text-emerald-400 font-black">
+                  <span className="text-[10px] uppercase tracking-[0.3em] text-[#557C5C] font-black">
                     {item.result}
                   </span>
                 )}
