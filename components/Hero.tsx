@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-widest text-zinc-600 font-secondary">
             <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Entrega sujeta a disponibilidad</span>
             <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Pagos: tarjeta, Bancolombia y Nequi</span>
-            <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Promo Sickpack $99.900</span>
+            <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Promo Six-pack $99.900</span>
           </div>
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

@@ -7,14 +7,14 @@ const HowItWorks: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Compra fácil</h2>
-          <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter font-heading">Así pides tu Sickpack</h3>
+          <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter font-heading">Así pides tu Six-pack</h3>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
               title: 'Elige tu pack',
-              desc: 'Selecciona el Sickpack y los sabores que más se ajustan a tu objetivo.'
+              desc: 'Selecciona el Six-pack y los sabores que más se ajustan a tu objetivo.'
             },
             {
               title: 'Confirma por WhatsApp',

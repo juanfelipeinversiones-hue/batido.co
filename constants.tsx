@@ -3,7 +3,7 @@ import { JuiceFlavor, PricingPack, FAQItem, Testimonial } from './types';
 
 export const WHATSAPP_NUMBER = '573044758290';
 export const WHATSAPP_MESSAGE =
-  'Hola!%20Quiero%20pedir%20el%20Sickpack%20promo%20de%20Batido.%20Estoy%20en%20Medell%C3%ADn.';
+  'Hola!%20Quiero%20pedir%20el%20Six-pack%20promo%20de%20Batido.%20Estoy%20en%20Medell%C3%ADn.';
 export const RAPPI_URL = '';
 export const BOTTLE_SIZE_ML = 400;
 
@@ -43,14 +43,14 @@ export const FLAVORS: JuiceFlavor[] = [
 export const PACKS: PricingPack[] = [
   {
     id: 'sickpack',
-    name: 'Sickpack',
+    name: 'Six-pack',
     description: 'Promo Medellín. Tu reset premium con jugos cold-pressed listos para rendir toda la semana.',
     price: '$99.900',
     compareAt: '$119.000',
     sizeMl: BOTTLE_SIZE_ML,
     availabilityNote: 'Entrega sujeta a disponibilidad. Te confirmamos por WhatsApp.',
     isPopular: true,
-    cta: 'Pedir Sickpack ahora'
+    cta: 'Pedir Six-pack ahora'
   }
 ];
 
