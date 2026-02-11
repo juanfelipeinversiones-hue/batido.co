@@ -4,8 +4,8 @@ import { FLAVORS, BOTTLE_SIZE_ML } from '../constants';
 
 const FlavorGrid: React.FC = () => {
   return (
-    <section id="sabores" className="py-32 px-6">
-      <div className="max-w-7xl mx-auto space-y-24">
+    <section id="sabores" className="py-24 sm:py-32 px-6">
+      <div className="max-w-7xl mx-auto space-y-16 sm:space-y-24">
         {FLAVORS.map((flavor, idx) => (
           <div 
             key={flavor.id} 
@@ -33,7 +33,7 @@ const FlavorGrid: React.FC = () => {
               <span className={`${flavor.color} text-xs md:text-sm font-black uppercase tracking-[0.3em]`}>
                 {flavor.focus}
               </span>
-              <h3 className="text-5xl md:text-7xl font-black tracking-tighter leading-none">
+              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-none">
                 {flavor.name}
               </h3>
               <p className="text-zinc-400 text-lg md:text-xl font-light leading-relaxed max-w-md mx-auto md:mx-0">

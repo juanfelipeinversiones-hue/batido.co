@@ -3,11 +3,11 @@ import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '../constants';
 
 const HowItWorks: React.FC = () => {
   return (
-    <section className="py-32 px-6">
+    <section className="py-24 sm:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Compra fácil</h2>
-          <h3 className="text-5xl md:text-6xl font-black tracking-tighter">Así pides tu Sickpack</h3>
+          <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">Así pides tu Sickpack</h3>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

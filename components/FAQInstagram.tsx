@@ -6,13 +6,13 @@ const FAQInstagram: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-40 px-6">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-32">
+    <section className="py-24 sm:py-32 px-6">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 lg:gap-32">
         {/* FAQ Section */}
         <div className="space-y-12">
           <div className="space-y-4">
             <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Resuelve tus dudas</h2>
-            <h3 className="text-5xl font-black tracking-tighter">Preguntas frecuentes</h3>
+            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter">Preguntas frecuentes</h3>
           </div>
           
           <div className="space-y-4">
@@ -46,7 +46,7 @@ const FAQInstagram: React.FC = () => {
         <div className="space-y-12">
           <div className="space-y-4">
             <h2 className="text-pink-500 text-xs font-black uppercase tracking-[0.4em]">@batido_co</h2>
-            <h3 className="text-5xl font-black tracking-tighter italic">Vida real.</h3>
+            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter italic">Vida real.</h3>
             <p className="text-zinc-400 max-w-md">
               Así se ve nuestro Instagram. Reels reales, sin filtros raros.
             </p>
@@ -69,7 +69,7 @@ const FAQInstagram: React.FC = () => {
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.3em] text-zinc-500">Instagram</span>
                 </div>
-                <div className="rounded-2xl overflow-hidden bg-black h-[520px] sm:h-[580px] md:h-[620px] lg:h-[680px]">
+                <div className="rounded-2xl overflow-hidden bg-black h-[480px] sm:h-[560px] md:h-[620px] lg:h-[680px]">
                   <iframe
                     src={`${url}embed`}
                     title={`Reel Batido ${idx + 1}`}

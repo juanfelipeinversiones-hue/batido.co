@@ -4,11 +4,11 @@ import { PACKS, WHATSAPP_NUMBER, WHATSAPP_MESSAGE, RAPPI_URL } from '../constant
 
 const Packs: React.FC = () => {
   return (
-    <section id="packs" className="py-40 px-6 relative">
+    <section id="packs" className="py-28 sm:py-36 lg:py-40 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-24">
           <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Promo Medellín</h2>
-          <h3 className="text-5xl md:text-7xl font-black tracking-tighter">Sickpack Batido</h3>
+          <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter">Sickpack Batido</h3>
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Precio especial por tiempo limitado. Confirmamos disponibilidad y tiempos por WhatsApp.
           </p>
@@ -18,9 +18,9 @@ const Packs: React.FC = () => {
           {PACKS.map((pack) => (
             <div 
               key={pack.id} 
-              className={`relative p-10 md:p-12 rounded-[3.5rem] border transition-all duration-500 flex flex-col overflow-hidden group ${
+              className={`relative p-8 sm:p-10 md:p-12 rounded-[3.5rem] border transition-all duration-500 flex flex-col overflow-hidden group ${
                 pack.isPopular 
-                  ? 'bg-gradient-to-br from-zinc-800 to-zinc-900 border-emerald-500/50 scale-105 shadow-[0_0_80px_-15px_rgba(52,211,153,0.15)]' 
+                  ? 'bg-gradient-to-br from-zinc-800 to-zinc-900 border-emerald-500/50 md:scale-105 shadow-[0_0_80px_-15px_rgba(52,211,153,0.15)]' 
                   : 'bg-zinc-900/40 border-white/5 hover:border-white/20'
               }`}
             >

@@ -3,13 +3,13 @@ import React from 'react';
 
 const ValueProp: React.FC = () => {
   return (
-    <section id="nosotros" className="py-40 px-6 bg-[#080808]">
+    <section id="nosotros" className="py-24 sm:py-32 lg:py-40 px-6 bg-[#080808]">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="space-y-16">
             <div className="space-y-6 text-center md:text-left">
               <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.5em]">Hecho en Medellín</h2>
-              <h3 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9]">Puro.<br />Fresco.<br />Potente.</h3>
+              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.95]">Puro.<br />Fresco.<br />Potente.</h3>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

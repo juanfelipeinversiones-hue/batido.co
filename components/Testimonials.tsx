@@ -3,11 +3,11 @@ import { TESTIMONIALS } from '../constants';
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-32 px-6 bg-[#080808]">
+    <section className="py-24 sm:py-32 px-6 bg-[#080808]">
       <div className="max-w-7xl mx-auto space-y-12">
         <div className="text-center space-y-4">
           <h2 className="text-emerald-400 text-xs font-black uppercase tracking-[0.4em]">Reseñas reales</h2>
-          <h3 className="text-5xl md:text-6xl font-black tracking-tighter">Clientes que repiten</h3>
+          <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">Clientes que repiten</h3>
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Experiencias de Medellín y otros lugares. Lo que más se repite: sabor real, frescura y energía.
           </p>
