@@ -7,9 +7,9 @@ const Packs: React.FC = () => {
     <section id="packs" className="py-28 sm:py-36 lg:py-40 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-24">
-          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em]">Promo Medellín</h2>
-          <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter">Sickpack Batido</h3>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
+          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Promo Medellín</h2>
+          <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter font-heading">Sickpack Batido</h3>
+          <p className="text-zinc-600 max-w-2xl mx-auto font-small">
             Precio especial por tiempo limitado. Confirmamos disponibilidad y tiempos por WhatsApp.
           </p>
         </div>
@@ -31,8 +31,8 @@ const Packs: React.FC = () => {
               )}
 
               <div className="space-y-6 mb-12">
-                <h4 className="text-3xl font-black tracking-tight">{pack.name}</h4>
-                <p className="text-zinc-600 text-sm font-medium leading-relaxed">{pack.description}</p>
+                <h4 className="text-3xl font-black tracking-tight font-heading">{pack.name}</h4>
+                <p className="text-zinc-600 text-sm font-medium leading-relaxed font-small">{pack.description}</p>
                 <div className="flex items-baseline gap-3 flex-wrap">
                   <span className="text-5xl font-black tracking-tighter">{pack.price}</span>
                   <span className="text-zinc-600 text-xs font-bold uppercase tracking-widest">COP</span>
@@ -42,7 +42,7 @@ const Packs: React.FC = () => {
                     </span>
                   )}
                 </div>
-                <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+                <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600 font-secondary">
                   <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">{pack.sizeMl} ml por botella</span>
                   <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">So Green · Summer Glow · Full Recovery</span>
                 </div>
@@ -53,8 +53,8 @@ const Packs: React.FC = () => {
                   onClick={() => window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`, '_blank')}
                   className={`w-full py-5 rounded-2xl font-black uppercase tracking-[0.2em] text-[11px] transition-all duration-300 ${
                     pack.isPopular 
-                      ? 'bg-[#557C5C] text-white hover:scale-[1.02] shadow-lg shadow-[#557C5C]/20' 
-                      : 'bg-[#557C5C] text-white hover:bg-[#4b6f52]'
+                      ? 'bg-[#F4A9C0] text-[#1B1B1B] hover:scale-[1.02] shadow-lg shadow-[#F4A9C0]/30' 
+                      : 'bg-[#F4A9C0] text-[#1B1B1B] hover:bg-[#ee9db7]'
                   }`}
                 >
                   {pack.cta}
@@ -69,10 +69,10 @@ const Packs: React.FC = () => {
                     Pedir por Rappi
                   </a>
                 )}
-                <p className="text-center text-[10px] text-zinc-600 uppercase tracking-widest font-black">
+                <p className="text-center text-[10px] text-zinc-600 uppercase tracking-widest font-black font-secondary">
                   {pack.availabilityNote}
                 </p>
-                <p className="text-center text-[9px] text-zinc-600 uppercase tracking-widest font-black flex items-center justify-center gap-2">
+                <p className="text-center text-[9px] text-zinc-600 uppercase tracking-widest font-black flex items-center justify-center gap-2 font-secondary">
                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                   Pagos por WhatsApp y entrega local
                 </p>

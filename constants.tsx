@@ -5,7 +5,7 @@ export const WHATSAPP_NUMBER = '573044758290';
 export const WHATSAPP_MESSAGE =
   'Hola!%20Quiero%20pedir%20el%20Sickpack%20promo%20de%20Batido.%20Estoy%20en%20Medell%C3%ADn.';
 export const RAPPI_URL = '';
-export const BOTTLE_SIZE_ML = 335;
+export const BOTTLE_SIZE_ML = 400;
 
 export const FLAVORS: JuiceFlavor[] = [
   {
@@ -65,7 +65,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: '¿Qué métodos de pago aceptan?',
-    answer: 'Aceptamos todos los métodos: transferencia, Nequi, Daviplata, tarjeta y efectivo. Si prefieres Rappi, te enviamos el link por WhatsApp.'
+    answer: 'Aceptamos tarjeta de crédito, transferencia Bancolombia y Nequi. Si prefieres Rappi, te enviamos el link por WhatsApp.'
   },
   {
     question: '¿Cómo se conservan?',

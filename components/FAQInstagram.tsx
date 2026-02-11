@@ -11,8 +11,8 @@ const FAQInstagram: React.FC = () => {
         {/* FAQ Section */}
         <div className="space-y-12">
           <div className="space-y-4">
-            <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em]">Resuelve tus dudas</h2>
-            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter">Preguntas frecuentes</h3>
+            <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Resuelve tus dudas</h2>
+            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter font-heading">Preguntas frecuentes</h3>
           </div>
           
           <div className="space-y-4">
@@ -27,13 +27,13 @@ const FAQInstagram: React.FC = () => {
                   onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                   className="w-full p-8 flex justify-between items-center text-left"
                 >
-                  <span className="font-bold text-lg tracking-tight">{faq.question}</span>
+                  <span className="font-bold text-lg tracking-tight font-heading">{faq.question}</span>
                   <div className={`w-8 h-8 rounded-full border border-black/10 flex items-center justify-center transition-transform ${openIndex === idx ? 'rotate-45' : ''}`}>
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" /></svg>
                   </div>
                 </button>
                 <div className={`transition-all duration-500 ease-in-out ${openIndex === idx ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-                  <div className="px-8 pb-8 text-zinc-600 font-light leading-relaxed">
+                  <div className="px-8 pb-8 text-zinc-600 font-light leading-relaxed font-small">
                     {faq.answer}
                   </div>
                 </div>
@@ -45,9 +45,9 @@ const FAQInstagram: React.FC = () => {
         {/* Instagram Section */}
         <div className="space-y-12">
           <div className="space-y-4">
-            <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em]">@batido_co</h2>
-            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter italic">Vida real.</h3>
-            <p className="text-zinc-600 max-w-md">
+            <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">@batido_co</h2>
+            <h3 className="text-4xl sm:text-5xl font-black tracking-tighter italic font-heading">Vida real.</h3>
+            <p className="text-zinc-600 max-w-md font-small">
               Así se ve nuestro Instagram. Reels reales, sin filtros raros.
             </p>
           </div>

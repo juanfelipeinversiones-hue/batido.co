@@ -30,25 +30,25 @@ const FlavorGrid: React.FC = () => {
 
             {/* Content Side */}
             <div className="w-full md:w-1/2 space-y-8 text-center md:text-left">
-              <span className={`${flavor.color} text-xs md:text-sm font-black uppercase tracking-[0.3em]`}>
+              <span className={`${flavor.color} text-xs md:text-sm font-black uppercase tracking-[0.3em] font-secondary`}>
                 {flavor.focus}
               </span>
-              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-none">
+              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-none font-heading">
                 {flavor.name}
               </h3>
-              <p className="text-zinc-600 text-lg md:text-xl font-light leading-relaxed max-w-md mx-auto md:mx-0">
+              <p className="text-zinc-600 text-lg md:text-xl font-light leading-relaxed max-w-md mx-auto md:mx-0 font-small">
                 {flavor.description}
               </p>
-              <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+              <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-zinc-600 font-secondary">
                 <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">{BOTTLE_SIZE_ML} ml</span>
                 <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">Sin azúcar añadida</span>
                 <span className="px-3 py-1 rounded-full border border-black/10 bg-white/70">Cold-Pressed</span>
               </div>
               <div className="pt-4 space-y-3">
-                <p className="text-[11px] uppercase tracking-[0.25em] text-zinc-600 font-bold">
+                <p className="text-[11px] uppercase tracking-[0.25em] text-zinc-600 font-bold font-secondary">
                   Ingredientes
                 </p>
-                <p className="text-zinc-700 text-sm font-medium">
+                <p className="text-zinc-700 text-sm font-medium font-small">
                   {flavor.ingredients.join(', ')}
                 </p>
                 <a

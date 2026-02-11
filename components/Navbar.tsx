@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
         <a href="/" className="text-2xl font-bold tracking-tighter font-brand">
           Batido<span className="text-[#557C5C]">.</span>
         </a>
-        <div className="hidden md:flex gap-10 text-sm font-medium text-zinc-600 uppercase tracking-widest">
+        <div className="hidden md:flex gap-10 text-sm font-medium text-zinc-600 uppercase tracking-widest font-secondary">
           <a href="#sabores" className="hover:text-[#557C5C] transition-colors">Sabores</a>
           <a href="#nosotros" className="hover:text-[#557C5C] transition-colors">Proceso</a>
           <a href="#packs" className="hover:text-[#557C5C] transition-colors">Sickpack</a>

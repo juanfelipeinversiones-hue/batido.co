@@ -8,8 +8,8 @@ const ValueProp: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="space-y-16">
             <div className="space-y-6 text-center md:text-left">
-              <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.5em]">Hecho en Medellín</h2>
-              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.95]">Puro.<br />Fresco.<br />Potente.</h3>
+              <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.5em] font-secondary">Hecho en Medellín</h2>
+              <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.95] font-heading">Puro.<br />Fresco.<br />Potente.</h3>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -23,8 +23,8 @@ const ValueProp: React.FC = () => {
                   <div className="w-10 h-10 bg-white/80 border border-black/10 rounded-xl flex items-center justify-center text-[#557C5C] group-hover:bg-[#557C5C] group-hover:text-white transition-all duration-300">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={item.icon} /></svg>
                   </div>
-                  <h4 className="text-xl font-black tracking-tight">{item.title}</h4>
-                  <p className="text-zinc-600 text-sm font-light leading-relaxed">{item.desc}</p>
+                  <h4 className="text-xl font-black tracking-tight font-heading">{item.title}</h4>
+                  <p className="text-zinc-600 text-sm font-light leading-relaxed font-small">{item.desc}</p>
                 </div>
               ))}
             </div>
