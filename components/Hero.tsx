@@ -17,13 +17,13 @@ const Hero: React.FC = () => {
             TU RESET<br />SEMANAL
           </h1>
           <p className="text-zinc-600 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed font-small">
-            Jugos 100% cold-pressed con ingredientes reales. Cada botella es de {BOTTLE_SIZE_ML} ml.{' '}
+            Jugos 100% cold-pressed con ingredientes reales.{' '}
             <span className="text-[#1B1B1B] font-semibold">Sin agua, sin azúcar añadida, sin excusas.</span>
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-widest text-zinc-600 font-secondary">
             <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Entrega sujeta a disponibilidad</span>
             <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Pagos: tarjeta, Bancolombia y Nequi</span>
-            <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Promo Six-pack $99.900</span>
+            <span className="px-4 py-2 rounded-full border border-black/10 bg-white/70">Promo Six-pack $99.000</span>
           </div>
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

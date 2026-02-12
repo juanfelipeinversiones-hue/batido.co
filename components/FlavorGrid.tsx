@@ -55,7 +55,7 @@ const FlavorGrid: React.FC = () => {
                   href="#packs"
                   className="inline-flex items-center justify-center bg-[#557C5C] text-white px-10 py-4 rounded-full font-bold uppercase text-xs tracking-widest hover:bg-[#4b6f52] transition-colors shadow-xl shadow-[#557C5C]/20"
                 >
-                  Elegir mi pack
+                  Pedir mi Six-pack
                 </a>
               </div>
             </div>

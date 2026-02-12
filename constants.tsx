@@ -13,7 +13,7 @@ export const FLAVORS: JuiceFlavor[] = [
     name: 'SO GREEN',
     focus: 'El detox que tu cuerpo grita',
     description: 'Fresco, liviano y directo. Ideal para resetear tu día y sentirte más ligero desde la primera botella.',
-    ingredients: ['Manzana', 'Limón'],
+    ingredients: ['Apio', 'Manzana verde', 'Limón', 'Pepino', 'Jengibre'],
     color: 'text-emerald-400',
     bgColor: 'bg-[#1a2e1a]',
     imageUrl: 'https://i.postimg.cc/852xNddd/Whats-App-Image-2026-02-07-at-10-58-02-PM.jpg'
@@ -44,8 +44,8 @@ export const PACKS: PricingPack[] = [
   {
     id: 'sickpack',
     name: 'Six-pack',
-    description: 'Promo Medellín. Tu reset premium con jugos cold-pressed listos para rendir toda la semana.',
-    price: '$99.900',
+    description: 'Promo Medellín. 6 productos de 400 ml para combinar sabores como quieras.',
+    price: '$99.000',
     compareAt: '$119.000',
     sizeMl: BOTTLE_SIZE_ML,
     availabilityNote: 'Entrega sujeta a disponibilidad. Te confirmamos por WhatsApp.',
