@@ -11,8 +11,8 @@ export const FLAVORS: JuiceFlavor[] = [
   {
     id: 'so-green',
     name: 'SO GREEN',
-    focus: 'El detox que tu cuerpo grita',
-    description: 'Fresco, liviano y directo. Ideal para resetear tu día y sentirte más ligero desde la primera botella.',
+    focus: 'El detox que tu cuerpo estaba esperando',
+    description: 'Ligero. Fresco. Directo al sistema. Tu reset natural para empezar la semana liviano y enfocado.',
     ingredients: ['Apio', 'Manzana verde', 'Limón', 'Pepino', 'Jengibre'],
     color: 'text-emerald-400',
     bgColor: 'bg-[#1a2e1a]',
@@ -21,8 +21,8 @@ export const FLAVORS: JuiceFlavor[] = [
   {
     id: 'summer-glow',
     name: 'SUMMER GLOW',
-    focus: 'Tu skin-care se bebe',
-    description: 'Brillo natural con un balance cítrico y especiado. Siente la piel con glow y el cuerpo con energía suave.',
+    focus: 'Tu skin-care ahora se bebe',
+    description: 'Balance cítrico + toque especiado. Glow natural y energía limpia.',
     ingredients: ['Zanahoria', 'Naranja', 'Manzana', 'Limón', 'Cúrcuma', 'Jengibre'],
     color: 'text-orange-400',
     bgColor: 'bg-[#2e1f1a]',
@@ -31,8 +31,8 @@ export const FLAVORS: JuiceFlavor[] = [
   {
     id: 'full-recovery',
     name: 'FULL RECOVERY',
-    focus: 'Tu combustible para el comeback',
-    description: 'Un impulso real para el rendimiento. Ideal para entrenar duro y recuperarte mejor.',
+    focus: 'Combustible real para tu comeback',
+    description: 'Ideal post-entreno o semanas intensas. Recarga natural, sin crashes.',
     ingredients: ['Remolacha', 'Limón', 'Manzana', 'Zanahoria', 'Pera'],
     color: 'text-purple-400',
     bgColor: 'bg-[#1e1a2e]',
@@ -44,7 +44,7 @@ export const PACKS: PricingPack[] = [
   {
     id: 'sickpack',
     name: 'Six-pack',
-    description: 'Promo Medellín. 6 productos de 400 ml para combinar sabores como quieras.',
+    description: '6 botellas de 400 ml. Combina sabores como quieras.',
     price: '$99.000',
     compareAt: '$119.000',
     sizeMl: BOTTLE_SIZE_ML,
@@ -86,43 +86,25 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Laura M.',
     city: 'Medellín',
-    quote: 'Me quitó la pesadez y me ayudó a volver a la rutina con energía. Se siente limpio y real.',
-    rating: 5,
-    result: 'Más energía en la mañana'
+    quote: 'Me quitó la pesadez y me ayudó a volver a la rutina con energía.',
+    rating: 5
   },
   {
     name: 'Santiago R.',
     city: 'Bogotá',
-    quote: 'El Full Recovery me salvó post‑entreno. Sabor top y cero azúcar añadida.',
-    rating: 5,
-    result: 'Mejor recuperación'
+    quote: 'El Full Recovery es brutal post-entreno.',
+    rating: 5
   },
   {
     name: 'Camila P.',
     city: 'Miami',
-    quote: 'Súper práctico para semanas pesadas. El Summer Glow es mi favorito.',
-    rating: 5,
-    result: 'Glow y ligereza'
+    quote: 'El Summer Glow es mi favorito.',
+    rating: 5
   },
   {
     name: 'Julián V.',
     city: 'Madrid',
-    quote: 'Se nota la calidad. Ingredientes reales y el sabor es brutal.',
-    rating: 5,
-    result: 'Sabor honesto'
-  },
-  {
-    name: 'Valentina C.',
-    city: 'Medellín',
-    quote: 'Me encanta que confirmen rápido por WhatsApp. Muy buen servicio.',
-    rating: 5,
-    result: 'Compra fácil'
-  },
-  {
-    name: 'Andrés T.',
-    city: 'CDMX',
-    quote: 'Cold‑pressed de verdad. Se siente premium desde el primer sorbo.',
-    rating: 5,
-    result: 'Experiencia premium'
+    quote: 'Se nota la calidad desde el primer sorbo.',
+    rating: 5
   }
 ];

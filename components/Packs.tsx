@@ -10,7 +10,7 @@ const Packs: React.FC = () => {
           <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Promo Medellín</h2>
           <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter font-heading">Six-pack Batido</h3>
           <p className="text-zinc-600 max-w-2xl mx-auto font-small">
-            Precio especial por tiempo limitado. Confirmamos disponibilidad y tiempos por WhatsApp.
+            6 botellas de 400 ml. Combina sabores como quieras.
           </p>
         </div>
 

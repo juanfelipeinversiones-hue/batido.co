@@ -6,22 +6,19 @@ const HowItWorks: React.FC = () => {
     <section className="py-24 sm:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Compra directa</h2>
+          <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Compra directa y simple</h2>
           <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter font-heading">
-            Escríbenos a WhatsApp y listo
+            Escríbenos por WhatsApp y listo
           </h3>
         </div>
 
         <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center">
-          <div className="space-y-6 text-center lg:text-left">
+          <div className="space-y-4 text-center lg:text-left">
             <p className="text-zinc-600 text-lg font-small">
-              El valor de <span className="font-secondary text-[#557C5C]">$99.000</span> incluye
-              <span className="font-secondary text-[#1B1B1B]"> 6 productos de 400 ml</span>,
-              del sabor que quieras o combinados.
+              El Six-pack incluye 6 botellas de 400 ml. Puedes combinarlas como quieras.
             </p>
             <p className="text-zinc-600 text-sm font-small">
-              Escríbenos para validar disponibilidad y coordinar domicilio. Si lo pides como
-              <span className="font-secondary text-[#1B1B1B]"> Sickpack</span>, el valor es el mismo.
+              Precio promo: <span className="font-secondary text-[#557C5C]">$99.000 COP</span> · Precio regular: $119.000
             </p>
             <div className="pt-2 flex justify-center lg:justify-start">
               <a

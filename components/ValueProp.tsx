@@ -12,12 +12,18 @@ const ValueProp: React.FC = () => {
               <h3 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.95] font-heading">Puro.<br />Fresco.<br />Potente.</h3>
             </div>
 
+            <div className="text-center md:text-left">
+              <p className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">
+                ¿Por qué Batido cold-pressed?
+              </p>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {[
-                { title: '0% Relleno', desc: 'Sin agua añadida. Sin azúcar añadida.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
-                { title: 'Cold-Pressed', desc: 'Extracción en frío para mantener sabor y frescura.', icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z' },
-                { title: 'Ingredientes Reales', desc: 'Manzana, limón, remolacha, zanahoria y más.', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
-                { title: 'Entrega Medellín', desc: 'Confirmamos disponibilidad y tiempos por WhatsApp.', icon: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' }
+                { title: '0% Relleno', desc: 'Nada de agua añadida. Nada de azúcar añadida.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
+                { title: 'Cold-Pressed Real', desc: 'Extracción en frío que conserva sabor y frescura.', icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z' },
+                { title: 'Ingredientes Reales', desc: 'Frutas y vegetales completos. Sin atajos.', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
+                { title: 'Entrega en Medellín', desc: 'Confirmamos disponibilidad y tiempos por WhatsApp.', icon: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' }
               ].map((item, i) => (
                 <div key={i} className="group space-y-4">
                   <div className="w-10 h-10 bg-white/80 border border-black/10 rounded-xl flex items-center justify-center text-[#557C5C] group-hover:bg-[#557C5C] group-hover:text-white transition-all duration-300">

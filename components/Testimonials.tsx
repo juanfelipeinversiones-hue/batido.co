@@ -9,7 +9,7 @@ const Testimonials: React.FC = () => {
           <h2 className="text-[#557C5C] text-xs font-black uppercase tracking-[0.4em] font-secondary">Reseñas reales</h2>
           <h3 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter font-heading">Clientes que repiten</h3>
           <p className="text-zinc-600 max-w-2xl mx-auto font-small">
-            Experiencias de Medellín y otros lugares. Lo que más se repite: sabor real, frescura y energía.
+            Lo que más escuchamos: sabor honesto, frescura real y energía estable.
           </p>
         </div>
 
