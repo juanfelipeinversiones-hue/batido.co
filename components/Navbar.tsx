@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '../constants';
 
 const Navbar: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar: React.FC = () => {
           <a href="#packs" className="hover:text-[#557C5C] transition-colors">Six-pack</a>
         </div>
         <a 
-          href="#packs" 
+          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
           className="bg-[#557C5C] text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#4b6f52] transition-colors"
         >
           Pedir ahora

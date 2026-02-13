@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FLAVORS, BOTTLE_SIZE_ML } from '../constants';
+import { FLAVORS, BOTTLE_SIZE_ML, WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '../constants';
 
 const FlavorGrid: React.FC = () => {
   return (
@@ -52,7 +52,7 @@ const FlavorGrid: React.FC = () => {
                   {flavor.ingredients.join(', ')}
                 </p>
                 <a
-                  href="#packs"
+                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
                   className="inline-flex items-center justify-center bg-[#557C5C] text-white px-10 py-4 rounded-full font-bold uppercase text-xs tracking-widest hover:bg-[#4b6f52] transition-colors shadow-xl shadow-[#557C5C]/20"
                 >
                   Pedir mi Six-pack
